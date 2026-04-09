@@ -1,6 +1,6 @@
 # csharp-exercises 
-# [THE BULK OF THIS README WAS WRITTEN BY AN AI MODEL - PLEASE FORGIVE THIS TRANSGRESSION]
-Live document - Warmup exercises using "subsumption pruning" and "spaced repetition" training method
+# [THE BULK OF THIS README WAS WRITTEN BY AN AI MODEL - FORGIVE THIS TRANSGRESSION]
+Live document - Record of exercises using the training methods: "subsumption pruning" and "spaced repetition"..
 ### File layout
 
 | File | Purpose |
@@ -9,6 +9,8 @@ Live document - Warmup exercises using "subsumption pruning" and "spaced repetit
 | `CHEATSHEET.cs` | Runnable reference. Every learned concept labelled and demonstrated as executable code. Rebuilt by the learner each session. |
 | `EXERCISES_DAYN.cs` | The following morning's warmup. Prompts authored by the AI, answered by the learner. |
 | `PLAN.md` | Architecture sketch for the underlying project the exercises are supporting. |
+
+---
 
 ---
 
