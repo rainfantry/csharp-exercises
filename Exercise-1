@@ -1,0 +1,175 @@
+using System;
+
+// ============================================================
+//  PTE WU — MORNING WARMUP — DAY 1
+// ------------------------------------------------------------
+//  Rules of engagement:
+//  1. Try each exercise from memory first. No cheating.
+//  2. If you fumble, check CHEATSHEET.cs, then come back and
+//     redo this exercise from scratch. Don't copy-paste.
+//  3. Fumbled exercises stay on the list tomorrow. Clean ones
+//     get pruned once a later exercise clearly subsumes them.
+//  4. This is reps, not a race. Take the time you need.
+//  5. Shitpost in the comments as normal. Do not change discipline.
+//
+//  To use: delete the // TODO line in each exercise, write the
+//  code underneath. Run the whole file when you're done to check
+//  nothing explodes.
+// ============================================================
+
+class Warmup
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        Exercise01();
+        Exercise02();
+        Exercise03();
+        Exercise04();
+        Exercise05();
+        Exercise06();
+        Exercise07();
+        Exercise08();
+        Exercise09();
+        Exercise10();
+    }
+
+    // ============================================================
+    // EXERCISE 01 — Declare and print
+    // Declare four variables:
+    //   - an int called `jobNumber` set to 26104
+    //   - a string called `client` set to "Radon"
+    //   - a double called `area` set to 612.5
+    //   - a bool called `signedOff` set to false
+    // Print all four on one line using string interpolation.
+    // ============================================================
+    static void Exercise01()
+    {
+        Console.WriteLine("\n== EXERCISE 01 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 02 — decimal vs double
+    // Declare a double called `priceDouble` = 19.90
+    // Declare a decimal called `priceDecimal` = 19.90m
+    // Print both. Notice which one keeps the trailing zero.
+    // (If they both look the same: wrong. Check your suffix.)
+    // ============================================================
+    static void Exercise02()
+    {
+        Console.WriteLine("\n== EXERCISE 02 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 03 — Nullable
+    // Declare a nullable string called `notes` and set it to null.
+    // Then reassign it to "site inspection pending".
+    // Print it.
+    // ============================================================
+    static void Exercise03()
+    {
+        Console.WriteLine("\n== EXERCISE 03 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 04 — Arithmetic + integer division
+    // Declare two ints: a = 23, b = 4.
+    // Print:
+    //   - a / b   (int division, will chop the decimal)
+    //   - a % b   (remainder)
+    //   - the REAL answer as a double (cast one side)
+    // ============================================================
+    static void Exercise04()
+    {
+        Console.WriteLine("\n== EXERCISE 04 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 05 — Comparison
+    // Declare two ints with any values.
+    // Print four comparisons on separate lines:
+    //   - are they equal?
+    //   - is the first bigger?
+    //   - is their sum greater than 50?
+    //   - is the first less than or equal to the second?
+    // ============================================================
+    static void Exercise05()
+    {
+        Console.WriteLine("\n== EXERCISE 05 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 06 — Logical (&&, ||, !)
+    // Declare: bool isSignedOff = true; decimal invoice = 0m;
+    // Print three bools:
+    //   - readyToClose:  signed off AND invoice greater than 0
+    //   - needsAttention: NOT signed off OR invoice is 0
+    //   - eitherOrBoth:  signed off OR invoice greater than 0
+    // ============================================================
+    static void Exercise06()
+    {
+        Console.WriteLine("\n== EXERCISE 06 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 07 — if / else if / else
+    // Declare an int called `hour` set to any value 0-23.
+    // Print:
+    //   "Morning"   if  hour < 12
+    //   "Afternoon" if  hour < 17
+    //   "Evening"   if  hour < 21
+    //   "Night"     otherwise
+    // Remember: top to bottom, first match wins.
+    // ============================================================
+    static void Exercise07()
+    {
+        Console.WriteLine("\n== EXERCISE 07 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 08 — while loop with flag
+    // Use a while loop to print the numbers 1 through 5, each on
+    // their own line. Use the flag pattern (bool running = true,
+    // running = false when done). No break, no continue.
+    // ============================================================
+    static void Exercise08()
+    {
+        Console.WriteLine("\n== EXERCISE 08 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 09 — while(true) + break
+    // Same result as Exercise 08 (print 1 through 5) but use
+    // while(true) with a break statement to exit.
+    // ============================================================
+    static void Exercise09()
+    {
+        Console.WriteLine("\n== EXERCISE 09 ==");
+        // TODO
+    }
+
+    // ============================================================
+    // EXERCISE 10 — Method calling a method
+    // Write a method called `ReportStatus()` that prints
+    // "Status: all clear" and then calls another method called
+    // `Sign()` which prints "  - Oracle out".
+    // Call ReportStatus() from Exercise10(). You should see two lines.
+    // ============================================================
+    static void Exercise10()
+    {
+        Console.WriteLine("\n== EXERCISE 10 ==");
+        // TODO (call ReportStatus here, then define it below)
+    }
+
+    // (Define ReportStatus() and Sign() as static methods below this point,
+    // outside of Exercise10 but still inside the Warmup class.)
+}
