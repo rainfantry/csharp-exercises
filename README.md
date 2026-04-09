@@ -1,5 +1,5 @@
 # csharp-exercises 
-# [THIS README WAS WRITTEN BY AN AI MODEL - PLEASE FORGIVE THIS TRANSGRESSION]
+# [THE BULK OF THIS README WAS WRITTEN BY AN AI MODEL - PLEASE FORGIVE THIS TRANSGRESSION]
 Live document - Warmup exercises using "subsumption pruning" and "spaced repetition" training method
 ### File layout
 
